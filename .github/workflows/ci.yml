@@ -8,3 +8,18 @@ jobs:
         steps:
             - name: ver check
               run: python --version
+
+    python-version-check-on-linux:
+        name: python version check
+        runs-on: ubuntu-latest
+        steps:
+            - name: ver check
+              run: python --version
+
+
+    python-version-check-on-macos:
+        name: python version check
+        runs-on: macos-latest
+        steps:
+            - name: ver check
+              run: python --version
